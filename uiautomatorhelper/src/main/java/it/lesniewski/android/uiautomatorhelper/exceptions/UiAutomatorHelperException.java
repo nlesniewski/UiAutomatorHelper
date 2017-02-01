@@ -1,4 +1,4 @@
-package it.lesniewski.android.uiautomatorhelper;
+package it.lesniewski.android.uiautomatorhelper.exceptions;
 
 import java.security.PrivilegedActionException;
 

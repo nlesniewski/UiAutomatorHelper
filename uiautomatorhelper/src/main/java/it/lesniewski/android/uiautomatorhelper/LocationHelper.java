@@ -6,6 +6,8 @@ import android.location.LocationManager;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.uiautomator.UiDevice;
 
+import it.lesniewski.android.uiautomatorhelper.exceptions.UiAutomatorHelperException;
+
 import static it.lesniewski.android.uiautomatorhelper.AdbShellHelper.executeShellCommand;
 
 /**

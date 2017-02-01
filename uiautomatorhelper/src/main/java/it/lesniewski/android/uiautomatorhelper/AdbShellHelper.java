@@ -2,6 +2,8 @@ package it.lesniewski.android.uiautomatorhelper;
 
 import android.support.test.uiautomator.UiDevice;
 
+import it.lesniewski.android.uiautomatorhelper.exceptions.UiAutomatorHelperException;
+
 /**
  * Created by nlesniewski on 01.02.2017.
  */
