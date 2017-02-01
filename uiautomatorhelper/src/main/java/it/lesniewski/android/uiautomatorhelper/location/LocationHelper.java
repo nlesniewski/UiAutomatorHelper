@@ -1,4 +1,4 @@
-package it.lesniewski.android.uiautomatorhelper;
+package it.lesniewski.android.uiautomatorhelper.location;
 
 import android.content.Context;
 import android.location.Location;

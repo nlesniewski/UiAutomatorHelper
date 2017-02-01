@@ -1,4 +1,4 @@
-package it.lesniewski.android.uiautomatorhelper;
+package it.lesniewski.android.uiautomatorhelper.location;
 
 /**
  * Created by nlesniewski on 01.02.2017.
