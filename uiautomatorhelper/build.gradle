@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -28,4 +29,14 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2';
     compile 'com.android.support.test:runner:0.5';
+}
+
+publish {
+    groupId = 'com.github.nlesniewski'
+    artifactId = 'uiautomatorhelper'
+    publishVersion = '0.0.1'
+    desc = 'Set of helpers that simplify interactions with Android UI Automator library.'
+    licences = ['Apache-2.0']
+    uploadName = 'UiAutomatorHelper'
+    website = 'https://github.com/nlesniewski/UiAutomatorHelper.git'
 }
